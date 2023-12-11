@@ -8,6 +8,8 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
+import Hero from './components/Hero';
+import AboutUs from './components/AboutUs';
 import Login from './components/Login';
 import ResetPassword from './components/ResetPassword';
 import Protected from './components/Protected';
@@ -26,10 +28,12 @@ import Table from './components/CRUD/Table';
 const router = createBrowserRouter(
   createRoutesFromElements(
       <Route path="/" element={<App />}>
+        <Route path="/" index element={<Hero />} />
+        <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/resetPassword" element={<ResetPassword />} />
-            <Route path="/" element={<Protected />} >
-              <Route path="/" index element={<Dashboard />} />
+            <Route path="/dashboard" element={<Protected />} >
+              <Route path="/dashboard" element={<Dashboard />} />
             </Route>
             <Route path="/dashboard" element={<Protected />} >
               <Route path="/dashboard"  element={<Dashboard />} />

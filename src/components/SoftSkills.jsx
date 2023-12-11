@@ -108,7 +108,7 @@ function SoftSkills(){
             </section>
       
       </Tab>
-      <Tab eventKey="technicalSkills" title="Technical Skills">
+      <Tab style={{color: 'black'}} eventKey="technicalSkills" title="Technical Skills">
       <Container maxwidth="md">
             <div className="div1">
                 <ReactPlayer 

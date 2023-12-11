@@ -4,7 +4,7 @@ const Table = ({ employees, handleEdit, handleDelete }) => {
 
   const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
-    currency: 'USD',
+    currency: 'PHP',
     minimumFractionDigits: null,
   });
 
@@ -19,6 +19,8 @@ const Table = ({ employees, handleEdit, handleDelete }) => {
             <th>Email</th>
             <th>Salary</th>
             <th>Birthdate</th>
+            <th>Mobile no.</th>
+            <th>SSS no.</th>
             <th colSpan={2} className="text-center">
               Actions
             </th>
@@ -33,7 +35,9 @@ const Table = ({ employees, handleEdit, handleDelete }) => {
                 <td>{employee.lastName}</td>
                 <td>{employee.email}</td>
                 <td>{formatter.format(employee.salary)}</td>
-                <td>{employee.date} </td>
+                <td>{employee.date}</td>
+                <td>{employee.mobileNo}</td>
+                <td>{employee.sssNo}</td>
                 <td className="text-right">
                   <button
                     onClick={() => handleEdit(employee.id)}
@@ -54,7 +58,7 @@ const Table = ({ employees, handleEdit, handleDelete }) => {
             ))
           ) : (
             <tr>
-              <td colSpan={7}></td>
+              <td colSpan={8}></td>
             </tr>
           )}
         </tbody>

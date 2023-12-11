@@ -50,7 +50,7 @@ const Login = () => {
             const user = userCredential.user;
             localStorage.setItem('token', user.accessToken);
             localStorage.setItem('user', JSON.stringify(user));
-            navigate("/");
+            navigate("/dashboard");
         } catch (error) {
             alert("Email/password invalid.");
         }    
@@ -58,6 +58,11 @@ const Login = () => {
 
   return (
     <div id='loginContainer'>
+        <div className='col-12' id='linkContainer2'>
+        <div id='linkContainer'>
+                <Link id='resetPass' to={"/"}> Home </Link>            
+            </div>          
+            </div>
         <Form className='loginForm' onSubmit={handleSubmit}>
             <div id='logoContainer'>
                 <img id='logoHRIS' src={logo} alt="logo" />

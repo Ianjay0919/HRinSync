@@ -71,6 +71,7 @@ const AddEmployee = ({ setIsAuthenticated }) => {
             employees={employees}
             handleEdit={handleEdit}
             handleDelete={handleDelete}
+            getEmployees={getEmployees}
           />
         </>
       )}
