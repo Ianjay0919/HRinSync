@@ -19,7 +19,7 @@ ChartJS.register(
 )
 
 const Dashboard = () => {
-    document.body.style.background = "#F8F0E3";
+    document.body.style.background = "#D3D3D3";
 
     const data = {
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],

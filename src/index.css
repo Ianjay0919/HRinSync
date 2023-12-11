@@ -70,7 +70,7 @@ font-family: 'Poppins', sans-serif;
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
 }
-#loginForm {
+.loginForm {
   text-align: left;
   margin-top: 30px;
   background-color: white;
@@ -173,13 +173,6 @@ font-family: 'Poppins', sans-serif;
 /* Google Fonts Import Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
-@media (width <= 1280)
-{
-  /*For mobile phones*/
-  [class*="dashboardTitle"] {
-    margin-top: 100px;
-  }
-}
 *{
   margin: 0;
   padding: 0;
@@ -331,29 +324,24 @@ font-family: 'Poppins', sans-serif;
 }
 .home-section{
   position: fixed;
-  background: #F8F0E3;
   height: 60px;
   left: 260px;
   transition: all 0.5s ease;
   z-index: 9999;
 }
 .sidebar.close ~ .home-section{
-  background-color: #F8F0E3;
   left: 0px;
-  width: calc(100% - 0px);
 }
 .home-section .home-content{
-  background-color: #F8F0E3;
   height: 60px;
   display: flex;
   align-items: center;
 }
 .home-content{
-  background-color: #F8F0E3;
+  background-color: transparent;
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text{
-  background-color: #F8F0E3;
   color: #11101d;
   font-size: 35px;
 }
@@ -368,12 +356,21 @@ font-family: 'Poppins', sans-serif;
 /*===================*/
 /*=====Dashboard=====*/
 /*===================*/
-
 .dashboardTitle {
-  margin-top: 60px;
+  text-align: center;
+}
+.payrollContainer {
+  background-color: #F2F2F2;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
 }
 .dashboardContainer {
-  background-color: #F8F0E3;
+  background-color: #F2F2F2;
   justify-content: space-evenly;
   display: flex;
   align-items: center;
@@ -601,6 +598,7 @@ font-family: 'Poppins', sans-serif;
   color: white;
 }
 .bdayLabel, .graphLabel {
+  text-align: left;
   margin-bottom: 10px;
 }
 .contactHRLabel2, .contactHRLabel3, .avatarHRcontainer {
@@ -618,13 +616,38 @@ font-family: 'Poppins', sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.employeesTitle  {
+  margin-top: 10px;
+}
+/*==================*/
+/*=====Calendar=====*/
+/*==================*/
+@media (width <= 600px)
+{
+  [class*="calendarContainer"] {
+    font-size: 9pt;
   }
+}
+@media (width <= 600px)
+{
+  [class*="h1_title_menu"] {
+    margin-top: 50px;
+  }
+}
+.calendarContainer {
+  background-color: #F2F2F2;
+  overflow-x: scroll;
+}
+.calendarTitle {
+  text-align: center;
+}
 /*========================*/
 /*=====Training style=====*/
 /*========================*/
 .div1 {
   float: justify;
-  padding: 10px;
+  padding-top: 15px;
   border-radius: 5%;
   border-color: #0428f5;
   padding-bottom: 60px;
@@ -632,7 +655,7 @@ font-family: 'Poppins', sans-serif;
 .Tabcontainer {
   float: inherit;
   padding-top: 30px;
-  padding-left: 20%;
+  padding-left: 9%;
   padding-bottom: 150px;
   align-self: center;
   width: 80%;
@@ -641,6 +664,7 @@ font-family: 'Poppins', sans-serif;
   padding-bottom: 20px;
   width: 100%;
   height: 100%;
+  min-width: 320px;
   aspect-ratio: 16/9;
 }
 .mb-3 {
@@ -793,23 +817,22 @@ article:has(:hover, :focus) {
 /*=======================*/
 /*=====Pricing=====*/
 /*=======================*/
-.Subscription{
-  padding-top: 50px;
-}
+
 .wrapperpricing{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap: 100px;
-  max-width: 70%;
-  padding: 80px 30px;
-  height: 830px;
-  align-self: center;
+  grid-gap: 20px;
+  padding: 80px 40px 170px;
+  height: 105vh;
+  align-items: left;
+  justify-content:left;
+  margin-left: 0%;
 
 }
 .pricing-table{
  box-shadow: 0px 0px 18px #ccc;
  text-align: center;
- padding: 10px 0px;
+ padding: 5px 0px;
  border-radius: 5px;
  position: relative;
  margin-left: 34px;
@@ -827,21 +850,20 @@ article:has(:hover, :focus) {
  
 }
 .pricing-table .head .title{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 20px;
   font-weight: 700;
 }
 .pricing-table .content .price{
-  background:linear-gradient(to right, #8E2DE2 0%, #4A00E0 100%);
-  width: 90px;
-  height: 90px;
+  background:linear-gradient(to right, #645cc9 0%, #30258d 100%);
+  width: 95px;
+  height: 93px;
   margin: auto;
   line-height: 90px;
   border-radius: 50%;
   border: 5px solid #fff;
-  padding-top: 20px;
   box-shadow: 0px 0px 10px #ccc;
-  margin-top: -50px;
+  margin-top: -55px;
    transition: all 0.5s ease;
 }
 .pricing-table:hover .content .price{
@@ -855,8 +877,8 @@ article:has(:hover, :focus) {
 }
 .pricing-table .content ul{
  list-style-type: none;
- margin-bottom: 20px;
- padding-top: 10px;
+ margin-bottom: 10px;
+ padding-top: 1px;
 }
 .pricing-table .content ul li{
   margin: 20px 0px;
@@ -864,7 +886,7 @@ article:has(:hover, :focus) {
   color:#555;
 }
 .pricing-table .content .sign-up{
-  background:linear-gradient(to right, #8E2DE2 0%, #4A00E0 100%);
+  background:linear-gradient(to right, #645cc9 0%, #30258d 100%);
   border-radius: 40px;
   font-weight: 500;
   position: relative;
@@ -1015,3 +1037,4 @@ input::-webkit-inner-spin-button {
   transform: translateX(-0px) translateY(-15px);
   font-size: 12px
   }
+/*cRUD*/

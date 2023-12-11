@@ -46,25 +46,16 @@ const Sidebar = () => {
         </ul>
       </li>
 
-      <li>
-        <a href="/newemployee">
+    <li>
+        <a href="/addemployee">
           <i class='bx bx-user-plus'></i>
-          <span class="link_name">Register New Employee</span>
+          <span class="link_name">Employees</span>
         </a>
         <ul class="sub-menu blank">
-        <li><a class="link_name" href="/newemployee">Register New Employee</a></li>
+        <li><a class="link_name" href="/addemployee">Employees</a></li>
         </ul>
     </li>
 
-    <li>
-        <a href="/employeemasterlist">
-          <i class="bi bi-person"></i>
-          <span class="link_name">Employee Masterlist</span>
-        </a>
-        <ul class="sub-menu blank">
-        <li><a class="link_name" href="/employeemasterlist">Employee Masterlist</a></li>
-        </ul>
-    </li>
     <li>
       <a href="#timesheet">
         <i class='bx bx-list-ul' ></i>

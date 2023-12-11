@@ -25,6 +25,7 @@ function Pricing() {
                             <div class="price">
                                 <h1>$13</h1>
                             </div>
+                            <h5 style={{fontWeight:'lighter' , color:'red'}}>/ month</h5>
                             <ul>
                                 <b><li>Full-service payroll</li></b>
                                 <li> * Auto Payroll</li>
@@ -49,6 +50,7 @@ function Pricing() {
                             <div class="price">
                                 <h1>$24</h1>
                             </div>
+                            <h5 style={{fontWeight:'lighter' , color:'red'}}>/ month</h5>
                             <ul>
                                 <b><li>Full-service payroll</li></b>
                                 <li> * Auto Payroll</li>
@@ -143,6 +145,7 @@ function Pricing() {
                                 <div class="price">
                                     <h1>$37</h1>
                                 </div>
+                                <h5 style={{fontWeight:'lighter' , color:'red', paddingTop:'1px', paddingBottom:'0px'}}>/ month</h5>
                                 <ul>
                                     <b><li>Full-service payroll</li></b>
                                     <li> * Auto Payroll</li>

@@ -22,10 +22,7 @@ import ReactPlayer from 'react-player';
 function SoftSkills(){
     const playerRef = useRef(null);
     return(
-        <div class="Tabcontainer"
-        style={{
-            marginTop:'10vh'
-        }}>
+        <div class="Tabcontainer mb-5">
      
             <h1 className='h1_title-menu'>Training and Development</h1>
         
@@ -33,7 +30,7 @@ function SoftSkills(){
       defaultActiveKey="softSkills"
       transition={false}
       id="noanim-tab-example"
-      className="mb-3"
+      className="mb-3 ml-1"
     >
             
     <Tab eventKey="softSkills" title="Soft Skills">
@@ -187,7 +184,7 @@ function SoftSkills(){
   
       </Tab>
 
-      <Tab eventKey="gallery" title="Team Building Gallery">
+      <Tab eventKey="gallery" title="Team-Building Gallery">
       <center><h2 className='h2_gallery'> Gallery</h2></center>
       <div class="container">
             <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">

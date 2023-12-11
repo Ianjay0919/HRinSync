@@ -58,7 +58,7 @@ const Login = () => {
 
   return (
     <div id='loginContainer'>
-        <Form id='loginForm' onSubmit={handleSubmit}>
+        <Form className='loginForm' onSubmit={handleSubmit}>
             <div id='logoContainer'>
                 <img id='logoHRIS' src={logo} alt="logo" />
             </div>

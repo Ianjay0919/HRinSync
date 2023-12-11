@@ -54,30 +54,24 @@ export default function PrintExportSelectedRows() {
     
   return (
    
-    <div class='container'
-    style={{ 
-      height: '750', 
-      width: '110%',
-      marginTop: '5vh'
-      }}>
-        <div class='container pt-5'>
-        <center><h1 className='h1_title_menu'>Payroll Management</h1></center>
-        <hr></hr>
-       
-                <input 
-                type="File"
-                onChange={handleFileUpload}
-                />  
-          </div>   
-<div className="payrollTable"
- style={{
-  display:"flex",
-  alignItems:"center",
-  justifyContent:"center",
-  height:"70vh"
-}}
-
->
+    <div class='payrollContainer'>
+      <div class='container'>
+        <h1 className='h1_title_menu pt-5'>Payroll Management</h1>
+        <input 
+          type="File"
+          onChange={handleFileUpload}
+        />  
+      <hr></hr>
+      </div>  
+      
+      <div className="payrollTable"
+        style={{
+          width: "80%",
+          display:"flex",
+          alignItems:"center",
+          justifyContent:"center",
+          height:"100vh"
+        }}>
       <DataGrid
       columns={columns}
       rows={data}

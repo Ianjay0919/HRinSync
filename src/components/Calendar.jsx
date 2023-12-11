@@ -6,7 +6,6 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import listPlugin from "@fullcalendar/list";
 import {
-  Box,
   List,
   ListItem,
   ListItemText,
@@ -45,34 +44,19 @@ const Calendar = () => {
   };
 
   return (
-    <Box p="60px" pt="20px">
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        marginLeft="50px"
-        marginTop="10vh"
-        >
-          <h1 className="h1_title-menu">Calendar</h1>
-      </Box>
-      <Box 
-      display="flex" 
-      justifyContent="space-between"
-      >
-        <Box flex="1 1 20%" 
-          ml="10px" 
-          mr="10px" 
-          mb="100px" 
-          p='15px' 
-          borderRadius="4px">
-            <Typography variant="h5">Events</Typography>
+    <div className="dashboardContainer">
+        <div className="col-12 pt-5 pb-3 dashboardTitle">
+        <h1>Calendar</h1>
+        </div>
+        <div className="col-sm-12 col-md-2 dashboardTitle">
+        <Typography variant="h5">Events</Typography>
               <List>
                 {currentEvents.map((event) => (
                   <ListItem
                   key={event.id}
                   sx={{ 
                     backgroundColor: colors.cyan[50], 
-                    margin: "10px 0", 
+                    margin: "10px 0px", 
                     borderRadius: "2px"
                     }}
                     >
@@ -91,12 +75,10 @@ const Calendar = () => {
                   </ListItem>
                     ))}
                 </List>
-          </Box>
-          <Box flex="1 1 100%" ml="15px">
-              <hr></hr>
-              <hr></hr>
-            <FullCalendar
-                  height="75vh"
+        </div>
+        <div className="calendarContainer col-sm-12 col-md-10">
+                <FullCalendar
+                  height="80vh"
                   plugins={[
                     dayGridPlugin,
                     timeGridPlugin,
@@ -128,10 +110,10 @@ const Calendar = () => {
                       date: "2023-12-28",
                     },
                   ]}
-              />
-        </Box>
-      </Box>
-    </Box>
+                />
+
+        </div>
+    </div>
   );
 };
 
