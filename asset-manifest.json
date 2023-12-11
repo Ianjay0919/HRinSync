@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/HRinSync/static/css/main.0626b0f2.css",
-    "main.js": "/HRinSync/static/js/main.d53ef1e3.js",
-    "static/media/bg2.jpg": "/HRinSync/static/media/bg2.8446f570eb41e7f7d7d2.jpg",
-    "static/media/bootstrap-icons.woff?": "/HRinSync/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
-    "static/media/bootstrap-icons.woff2?": "/HRinSync/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
-    "static/media/leave.png": "/HRinSync/static/media/leave.42c41e6d003bef03bfac.png",
-    "static/media/woman.png": "/HRinSync/static/media/woman.3f889d0af5f26871fbcc.png",
-    "static/media/man.png": "/HRinSync/static/media/man.ab45eb1d42b1faaf3d12.png",
-    "static/media/woman_4140047.png": "/HRinSync/static/media/woman_4140047.39acfdd8c10d32e77dc7.png",
-    "static/media/profile-1.png": "/HRinSync/static/media/profile-1.03961758fc894ce1fd2d.png",
-    "static/media/avatar_3385937.png": "/HRinSync/static/media/avatar_3385937.b9fed57faff9caf6398e.png",
-    "static/media/contract.png": "/HRinSync/static/media/contract.01a8d54ab0f923d0f43d.png",
-    "static/media/compliant.png": "/HRinSync/static/media/compliant.b553ab8d635b3ecdf82d.png",
-    "static/media/girl.png": "/HRinSync/static/media/girl.3c72b1bacd02615085ff.png",
-    "static/media/man-1.png": "/HRinSync/static/media/man-1.ba422ca13bb76ae93687.png",
-    "static/media/user.png": "/HRinSync/static/media/user.961568814dceb733c85a.png",
-    "index.html": "/HRinSync/index.html",
-    "main.0626b0f2.css.map": "/HRinSync/static/css/main.0626b0f2.css.map",
-    "main.d53ef1e3.js.map": "/HRinSync/static/js/main.d53ef1e3.js.map"
+    "main.css": "/static/css/main.f6e17254.css",
+    "main.js": "/static/js/main.eec40672.js",
+    "static/media/bg2.jpg": "/static/media/bg2.8446f570eb41e7f7d7d2.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "static/media/leave.png": "/static/media/leave.42c41e6d003bef03bfac.png",
+    "static/media/woman.png": "/static/media/woman.3f889d0af5f26871fbcc.png",
+    "static/media/man.png": "/static/media/man.ab45eb1d42b1faaf3d12.png",
+    "static/media/woman_4140047.png": "/static/media/woman_4140047.39acfdd8c10d32e77dc7.png",
+    "static/media/profile-1.png": "/static/media/profile-1.03961758fc894ce1fd2d.png",
+    "static/media/avatar_3385937.png": "/static/media/avatar_3385937.b9fed57faff9caf6398e.png",
+    "static/media/contract.png": "/static/media/contract.01a8d54ab0f923d0f43d.png",
+    "static/media/compliant.png": "/static/media/compliant.b553ab8d635b3ecdf82d.png",
+    "static/media/girl.png": "/static/media/girl.3c72b1bacd02615085ff.png",
+    "static/media/man-1.png": "/static/media/man-1.ba422ca13bb76ae93687.png",
+    "static/media/user.png": "/static/media/user.961568814dceb733c85a.png",
+    "index.html": "/index.html",
+    "main.f6e17254.css.map": "/static/css/main.f6e17254.css.map",
+    "main.eec40672.js.map": "/static/js/main.eec40672.js.map"
   },
   "entrypoints": [
-    "static/css/main.0626b0f2.css",
-    "static/js/main.d53ef1e3.js"
+    "static/css/main.f6e17254.css",
+    "static/js/main.eec40672.js"
   ]
 }
