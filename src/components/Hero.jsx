@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import ReactPlayer from 'react-player';
 import './Hero.css';
 import logo from './Images/HRI_white.png'; 
 import { useState } from 'react';
@@ -7,9 +8,10 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 
 
-
+const VIDEO_hero = "https://www.youtube.com/watch?v=Y72bRzL-bHU";
 
 const Hero = () => {
+      const playerRef = useRef(null);
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -50,7 +52,19 @@ const Hero = () => {
             </div>
             <div className='row'>
                 <div className="vw-100 landingImage">
-                    <div className='col-sm-12 col-md-5 btnContainerLanding'>
+                    <div className="contentVideo" maxwidth="md">
+                      <div className="div2">
+                        <ReactPlayer 
+                          className="videoPlayer2"
+                            width={"100%"} 
+                            height={"100%"}
+                            ref={playerRef} 
+                            url={[VIDEO_hero]}
+                            controls={true}
+                            />
+                      </div>
+                    </div>
+                    <div className='col-sm-12 col-md-5 btnContainerLanding pt-5'>
                         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                         <Button className='mt-5' variant="primary" onClick={handleShow}>
                             Contact Us
