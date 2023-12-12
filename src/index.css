@@ -136,6 +136,9 @@ font-family: 'Poppins', sans-serif;
   display: grid;
   justify-content: left;
 }
+#linkContainer3 i {
+  color: white;
+}
 #linkContainer2 {
   padding-top: 1%;
   text-align: left;
