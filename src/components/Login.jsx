@@ -59,7 +59,7 @@ const Login = () => {
   return (
     <div id='loginContainer'>
         <div className='col-12' id='linkContainer2'>
-        <div id='linkContainer'>
+        <div id='linkContainer3'>
                 <Link id='resetPass' to={"/"}> Home </Link>            
             </div>          
             </div>
