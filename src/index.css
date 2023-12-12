@@ -856,6 +856,7 @@ article:has(:hover, :focus) {
  text-align: center;
  padding: 5px 0px;
  border-radius: 5px;
+  margin: 10px;
  position: relative;
  width: 350px;
 
