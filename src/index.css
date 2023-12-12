@@ -130,6 +130,9 @@ font-family: 'Poppins', sans-serif;
   display: grid;
   justify-content: center;
 }
+#linkContainer3 {
+  justify-content: left;
+}
 #linkContainer2 {
   padding-top: 1%;
   text-align: left;
