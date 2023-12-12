@@ -190,4 +190,28 @@
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
 }
-
+.contentVideo{
+display: flex;
+padding-top: 180px;
+align-items: center;
+justify-content: right;
+width: 98vw;
+height: 60vh;
+position: absolute;
+}
+.div2 {
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  width: 32vw;
+  margin-right: 4%;
+}
+.videoPlayer2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  aspect-ratio: 16/9;
+}
