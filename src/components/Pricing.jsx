@@ -3,7 +3,7 @@ import React from "react";
 function Pricing() {
     return(
         <div class="dashboardContainer">
-        <div classname="col-12">
+        <div className="col-12">
         <h1 className="h1_title-menu pt-5">Subscription Plan</h1>
         <hr></hr>
             </div>
