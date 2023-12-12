@@ -3,8 +3,10 @@ import React from "react";
 function Pricing() {
     return(
         <div class="dashboardContainer">
+        <div classname="col-12">
         <h1 className="h1_title-menu pt-5">Subscription Plan</h1>
         <hr></hr>
+            </div>
         <div class="pricing-table gprice-single">
           <div class="head">
             <h4 class="title">Basic</h4> 
