@@ -131,6 +131,8 @@ font-family: 'Poppins', sans-serif;
   justify-content: center;
 }
 #linkContainer3 {
+  color: white;
+  font-size: 15pt;
   display: grid;
   justify-content: left;
 }
