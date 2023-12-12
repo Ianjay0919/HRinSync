@@ -38,9 +38,6 @@ const Hero = () => {
                                     <a class="nav-link" href="#">Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link" href="/login">Sign In</a>
                                 </li>
                             </ul>
