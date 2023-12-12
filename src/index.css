@@ -846,9 +846,9 @@ article:has(:hover, :focus) {
   grid-gap: 20px;
   padding: 80px 40px 170px;
   height: 105vh;
-  align-items: left;
-  justify-content:left;
-  margin-left: 0%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
 
 }
 .pricing-table{
