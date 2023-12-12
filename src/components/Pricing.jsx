@@ -3,7 +3,8 @@ import React from "react";
 function Pricing() {
     return(
         <div class="dashboardContainer">
-
+        <h1 className="h1_title-menu pt-5">Subscription Plan</h1>
+        <hr></hr>
         <div class="pricing-table gprice-single">
           <div class="head">
             <h4 class="title">Basic</h4> 
@@ -25,7 +26,7 @@ function Pricing() {
               <b><li><del>Personal HR advisor</del></li></b>
             </ul>
             <div class="sign-up">
-              <a href="#" class="btn bordered radius">Choose this Plan</a>
+              <a href="#" class="btn bordered radius">Current Plan</a>
             </div>
           </div>
         </div>
