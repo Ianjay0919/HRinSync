@@ -10,7 +10,7 @@ const About = () => {
           
         </div>
   <div class="container-fluid all-show ml-2 mr-2">
-    <a class="navbar-brand" href="/hero">
+    <a class="navbar-brand" href="/">
     <div id='logoContainer'>
                 <img id='logoHRIS' src={logo} alt="logo" />
             </div></a>
