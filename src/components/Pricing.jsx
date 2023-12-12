@@ -28,7 +28,7 @@ function Pricing() {
               <b><li><del>Personal HR advisor</del></li></b>
             </ul>
             <div class="sign-up">
-              <a href="#" class="btn bordered radius">Current Plan</a>
+              <a href="#" class="btn bordered radius disabled">Current Plan</a>
             </div>
           </div>
         </div>
