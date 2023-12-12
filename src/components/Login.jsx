@@ -60,7 +60,7 @@ const Login = () => {
     <div id='loginContainer'>
         <div className='col-12' id='linkContainer2'>
         <div id='linkContainer3'>
-                <Link id='resetPass' to={"/"}> Home </Link>            
+                <a href="/"><i class='bx bxs-home-alt-2'></i></a>            
             </div>          
             </div>
         <Form className='loginForm' onSubmit={handleSubmit}>
